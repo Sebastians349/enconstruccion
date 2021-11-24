@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  margin-top: 1rem;
+}
+
+.titulo {
+  padding-top: 1rem;
+}
+
+.centrado {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: flex;
+  width: 25%;
+  margin-top: 2rem;
+}
+h3,
+h2,
+h1 {
+  margin-top: 1rem;
+}
+.mail {
+  text-decoration: none;
+  color: black;
+}
+
+.mail:hover {
+  color: #003081;
+}
