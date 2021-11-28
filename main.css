@@ -9,6 +9,7 @@
 header {
   margin-top: 1rem;
 }
+/*FIX estas drogado?= metiste el header landmark en el main...FIX --> */
 
 footer {
   padding: 1rem;
@@ -38,7 +39,26 @@ h1 {
   text-decoration: none;
   color: black;
 }
+.mailtxt {
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: x-large;
+}
 
 .mail:hover {
   color: #003081;
+}
+
+.manita {
+  animation: manitaAnim 1s infinite alternate-reverse;
+}
+
+@keyframes manitaAnim {
+  from {
+    transform: translate(2px, 4px);
+    z-index: 5;
+  }
+  to {
+    transform: translate(2px, 35px);
+  }
 }
